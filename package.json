@@ -1,0 +1,23 @@
+{
+  "name": "morgan-for-express",
+  "version": "1.0.0",
+  "description": "1. Copy logger.js to your project. 2. Load logger.js in index.js like sample.js.",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syagawa/morgan-for-express.git"
+  },
+  "author": "syagawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syagawa/morgan-for-express/issues"
+  },
+  "homepage": "https://github.com/syagawa/morgan-for-express#readme",
+  "dependencies": {
+    "morgan": "^1.10.0",
+    "rotating-file-stream": "^2.1.3"
+  }
+}
